@@ -1,0 +1,19 @@
+{
+  "name": "audiodata",
+  "description": "definition of audio data interface",
+  "version": "1.0.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/audiodata/issues"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "audio",
+    "interface"
+  ],
+  "licenses": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/audiodata.git"
+  }
+}
