@@ -6,14 +6,33 @@
   "bugs": {
     "url": "https://github.com/mohayonao/audiodata/issues"
   },
-  "devDependencies": {},
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.22.1",
+    "espower-loader": "^0.11.0",
+    "intelli-espower-loader": "^0.7.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0",
+    "web-audio-test-api": "^0.3.0"
+  },
+  "files": [
+    "package.json",
+    "lib",
+    "README.md"
+  ],
   "keywords": [
     "audio",
     "interface"
   ],
   "licenses": "MIT",
+  "main": "lib/audiodata.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mohayonao/audiodata.git"
+  },
+  "scripts": {
+    "lint": "eslint lib test",
+    "test": "mocha",
+    "travis": "npm run lint && npm run test"
   }
 }
