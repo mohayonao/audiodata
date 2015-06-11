@@ -1,4 +1,5 @@
 # audiodata
+[![Build Status](http://img.shields.io/travis/mohayonao/audiodata.svg?style=flat-square)](https://travis-ci.org/mohayonao/audiodata)
 [![NPM Version](http://img.shields.io/npm/v/audiodata.svg?style=flat-square)](https://www.npmjs.org/package/audiodata)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://mohayonao.mit-license.org/)
 
@@ -13,7 +14,7 @@ interface AudioData {
 }
 ```
 
-## How to use
+## Utilities
 
 ```js
 function getSampleRate(audiodata) {
